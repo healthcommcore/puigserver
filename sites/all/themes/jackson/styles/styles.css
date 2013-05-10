@@ -3,7 +3,7 @@
  */
 
 body {
-  background-color: #ccc;
+  background-color:#AAC0D0;
   color: #4F4E4E;
   font-family: 'RobotoRegular', Arial, FreeSans, sans-serif;
 	font-size:1.0em !important;
@@ -15,10 +15,12 @@ body {
 
 #page{background:#fff;}
 h1 {
-  font-size: 2.1em;
+  font-size: 3.5em;
   font-weight: normal;
+	line-height:.95em;
   margin: .5em 0 1.0em;
-  color: #3d5454;
+  color: #26527D;
+	font-family:'RokkittRegular';
 }
 h2 {
   font-size: 20px;
@@ -117,11 +119,14 @@ a:hover {
   overflow: hidden;
 }
 header {
-  background: url(../images/header-bg.gif) repeat-x;
+  background:#637B94;
   height: 145px;
   width: 100%;
 }
 .header {
+	background:url('../images/banner.gif') 0 0 no-repeat;
+	border-left:#1F2124 1px solid;
+	border-right:#1F2124 1px solid;
   height: 130px;
   padding-top: 15px;
 }
@@ -134,7 +139,10 @@ header {
   padding-top: 15px;
 }
 .logo {
-  float: left;
+	position:absolute;
+	top:25px;
+	z-index:0;
+	margin-left:25px;
 }
 .block-search {
   clear: right;
@@ -183,12 +191,12 @@ header {
 /* Primary Navigation
 -------------------------------------------------------------- */
 .navigation {
-  background: transparent url(../images/main-sprite.png) repeat-x scroll left top;
+  background: transparent url(../images/nav_hero_sprite.gif) repeat-x scroll left top;
   height: 45px;
   margin-top: -45px;
 }
 nav li{
-  background: transparent url(../images/main-sprite.png) repeat-x scroll left top;
+  background: transparent url(../images/nav_hero_sprite.gif) repeat-x scroll left top;
   float: left;
   height: 45px;
   line-height: 45px;
@@ -198,16 +206,16 @@ nav li:hover {
   background-position: left -45px;
 }
 nav a {
-  color: #FFF;
+  color: #CDD3D8;
   display: block;
-  font-size: 15px;
-  padding: 0 30px;
+	font-family:'RobotoLight';
+  font-size: 18px;
+  padding: 0 26px;
   text-decoration: none;
-  text-transform: uppercase;
   vertical-align: middle;
 }
 nav a:hover,
-nav a:visited {
+nav li a.active {
   color: #FFF;
   text-decoration: none;
 }
@@ -348,8 +356,8 @@ div.messages {
 /* Slide Wrapper
 -------------------------------------------------------------- */
 #banner-wrap {
-  background: transparent url(../images/main-sprite.png) repeat-x scroll center -90px;
-  height: 333px;
+  background: transparent url(../images/nav_hero_sprite.gif) repeat-x scroll center -90px;
+  height: 247px;
   overflow: hidden;
   width: 100%;
 }
@@ -382,7 +390,7 @@ div.messages {
   height: 1%;
 }
 #main-wrapper {
-  background: transparent url(../images/content-bg.gif) repeat-x scroll;
+  background: #fff;
   width:100%;
 }
 
@@ -533,6 +541,21 @@ footer a:hover {
 .preface-1, .preface-2, .preface-3{border:#3D5454 2px solid; margin:0 8px; background:#fff;}
 .preface-1 .content, .preface-2 .content, .preface-3 .content{padding:5px 15px 15px;}
 
+/** Hero images **/
+#banner .middle{padding:0 10px;}
+#banner .content{margin:10px 0;}
+
+/** Home copy **/
+#home_copy{border-left:#26527D 1px solid; padding-left:50px;}
+#home_copy h1{font-size:3.1em; margin:10px 0;}
+#home_copy #text{position:absolute; width:400px; margin-top:-43px; margin-left: 250px;}
+#home_copy p{color:#78674D; display:block;}
+#home_copy p.firstline{font-size:1.5em; line-height:1.2em;}
+#home_copy p.secondline{font-size:1.1em; line-height:1.4em; margin-top:20px;}
+
+/** misc **/
+.clr{clear:both;}
+
 @font-face {
     font-family: 'RobotoRegular';
     src: url('../fonts/Roboto-Regular-webfont.eot');
@@ -624,6 +647,18 @@ footer a:hover {
          url('../fonts/Roboto-Condensed-webfont.woff') format('woff'),
          url('../fonts/Roboto-Condensed-webfont.ttf') format('truetype'),
          url('../fonts/Roboto-Condensed-webfont.svg#RobotoCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RokkittRegular';
+    src: url('../fonts/Rokkitt-webfont.eot');
+    src: url('../fonts/Rokkitt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Rokkitt-webfont.woff') format('woff'),
+         url('../fonts/Rokkitt-webfont.ttf') format('truetype'),
+         url('../fonts/Rokkitt-webfont.svg#RokkittRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
