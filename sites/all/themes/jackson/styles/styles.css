@@ -147,6 +147,7 @@ header {
 .block-search {
   clear: right;
   float: right;
+	margin:3px 30px 0 0;
 }
 #site-name {
   position: absolute;
@@ -552,6 +553,24 @@ footer a:hover {
 #home_copy p{color:#78674D; display:block;}
 #home_copy p.firstline{font-size:1.5em; line-height:1.2em;}
 #home_copy p.secondline{font-size:1.1em; line-height:1.4em; margin-top:20px;}
+
+/** Homepage News Module **/
+.first-sidebar .news, .first-sidebar .news h2{color:#887F6C;}
+.first-sidebar .news{margin-top:60px; line-height:1.4em;}
+.first-sidebar .news h2{background:none; display:inline; font-family:'RokkittRegular'; font-size:2.3em;}
+
+/** footer **/
+footer{background:url('../images/footer_grad.gif') 0 0 repeat-x; padding:40px 0 80px 0;}
+div.footer_logos, div.footer_logos img{float:left;}
+div.footer_logos img{margin-right:40px;}
+div.footer_links{float:right; text-align:right;}
+div.footer_links nav li{background:none; padding:0 13px; border-right:#fff 1px solid; height:auto; line-height:1em;}
+div.footer_links nav li:last-child{padding-right:0; border:0;}
+div.footer_links nav a { padding:0; color:#fff; display:inline; font-size:1em; font-family:'RobotoRegular';}
+div.footer_links nav ul{float:right; margin:0 0 10px 0;}
+div.footer_links .legal,div.footer_links .legal a {color:#44505A;}
+div.footer_links .legal{clear:right; font-size:.8em; line-height:1.6em;}
+div.footer_links .legal a{ text-decoration:underline; margin-left:3px;}
 
 /** misc **/
 .clr{clear:both;}
