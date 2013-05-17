@@ -589,6 +589,8 @@ div.footer_links .legal a{ text-decoration:underline; margin-left:3px; font-fami
 /** misc **/
 .clr{clear:both;}
 #main .weirdlist li{list-style:none; margin-bottom:10px;}
+.imgfloatleft{float:left; margin:0 15px 15px 0;}
+.imgfloatright{float:right; margin:0 0 15px 15px;}
 
 @font-face {
     font-family: 'RobotoRegular';
