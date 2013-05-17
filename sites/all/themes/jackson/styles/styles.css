@@ -15,16 +15,15 @@ body {
 
 #page{background:#fff;}
 h1, h2, h3, h4{font-weight: normal;}
+h1, h2{font-family:'RokkittRegular';}
 h1 {
   font-size: 3.0em;
 	line-height:.95em;
   margin: .5em 0;
   color: #26527D;
-	font-family:'RokkittRegular';
 }
 h2 {
-  font-size: 1.6em;
-	font-family:'RobotoBlack';
+  font-size: 1.9em;
   margin: 22px 0 7px;
   color: #A58B72;
 }
@@ -71,6 +70,7 @@ blockquote {
   min-height: 0px;
 }
 strong{font-family:'RobotoBold';}
+em{font-family:'RobotoItalic';}
 
 ol{
   list-style-type: decimal;
@@ -553,7 +553,7 @@ footer a:hover {
 #banner .content{margin:10px 0;}
 
 /** Home copy **/
-#home_copy{border-left:#26527D 1px solid; padding-left:50px;}
+#home_copy{border-left:#26527D 1px solid; padding-left:60px;margin-left:20px;}
 #home_copy h1{font-size:2.8em; margin:10px 0;}
 #home_copy #text{position:absolute; width:400px; margin-top:-43px; margin-left: 230px;}
 #home_copy p{color:#78674D; display:block;}
@@ -574,9 +574,10 @@ footer a:hover {
 .sidebar .block-menu-block a:hover, .sidebar .block-menu-block a{text-decoration:none;}
 /** footer **/
 footer{background:url('../images/footer_grad.gif') 0 0 repeat-x; padding:40px 0 80px 0;}
+div.footer_logos{margin-left:22px;}
 div.footer_logos, div.footer_logos img{float:left;}
 div.footer_logos img{margin-right:40px;}
-div.footer_links{float:right; text-align:right;}
+div.footer_links{float:right; text-align:right;margin-right:32px;}
 div.footer_links nav li{background:none; padding:0 13px; border-right:#fff 1px solid; height:auto; line-height:1em;}
 div.footer_links nav li:last-child{padding-right:0; border:0;}
 div.footer_links nav a { padding:0; color:#fff; display:inline; font-size:1em; font-family:'RobotoRegular';}
@@ -587,6 +588,7 @@ div.footer_links .legal a{ text-decoration:underline; margin-left:3px; font-fami
 
 /** misc **/
 .clr{clear:both;}
+#main .weirdlist li{list-style:none; margin-bottom:10px;}
 
 @font-face {
     font-family: 'RobotoRegular';
