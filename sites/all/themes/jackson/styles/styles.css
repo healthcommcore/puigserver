@@ -548,6 +548,8 @@ footer a:hover {
 .preface-1, .preface-2, .preface-3{border:#3D5454 2px solid; margin:0 8px; background:#fff;}
 .preface-1 .content, .preface-2 .content, .preface-3 .content{padding:5px 15px 15px;}
 
+.first-sidebar{background:#DFD9C3;}
+.first-sidebar .gutter{padding:0;}
 /** Hero images **/
 #banner .middle{padding:0 10px;}
 #banner .content{margin:10px 0;}
@@ -561,12 +563,14 @@ footer a:hover {
 #home_copy p.secondline{font-size:1.1em; line-height:1.4em; margin-top:20px;}
 
 /** Homepage News Module **/
-.first-sidebar .news, .first-sidebar .news h2{color:#887F6C;}
-.first-sidebar .news{margin-top:60px; line-height:1.4em;}
-.first-sidebar .news h2{background:none; display:inline; font-family:'RokkittRegular'; font-size:2.3em;}
+.home-sidebar .news, .home-sidebar .news h2{color:#887F6C;}
+.home-sidebar .news{margin-top:60px; line-height:1.4em;}
+.home-sidebar .news h2{background:none; display:inline; font-family:'RokkittRegular'; font-size:2.3em;}
 
 /** Side menu **/
 .sidebar .block-menu-block{margin-top:125px;}
+.sidebar .block-menu-block .content{padding:0;}
+.sidebar .block-menu-block .menu{background:#F3F1E2; padding:15px 20px; border-top:#1F2124 1px solid; border-bottom:#1F2124 1px solid;}
 .sidebar .block-menu-block h2{display:none;}
 #main .sidebar .block-menu-block ul li{list-style:none; font-family:'RobotoBlack'; font-size:1.2em; line-height:1.2em; margin:0 0 10px 0;}
 .sidebar .block-menu-block a{color:#A52C2C;}
@@ -591,6 +595,9 @@ div.footer_links .legal a{ text-decoration:underline; margin-left:3px; font-fami
 #main .weirdlist li{list-style:none; margin-bottom:10px;}
 .imgfloatleft{float:left; margin:0 15px 15px 0;}
 .imgfloatright{float:right; margin:0 0 15px 15px;}
+.members{margin-top:20px;}
+.members td{vertical-align:top; padding-bottom:30px;}
+.members img{padding-right:20px;}
 
 @font-face {
     font-family: 'RobotoRegular';

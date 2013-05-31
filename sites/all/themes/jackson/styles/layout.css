@@ -35,6 +35,7 @@
   float: right;
   width: 240px;
 }
+.one-sidebar .home-sidebar,
 .one-sidebar .first-sidebar {
   float: left;
   width: 227px;
@@ -49,7 +50,7 @@
  * column gutters
  */
 .sidebar-first .page-content .gutter {
-  padding-left: 12px;
+  padding-left: 30px;
 }
 .sidebar-second .page-content .gutter {
   padding-right: 11px;

@@ -97,8 +97,11 @@
         <div id="main" class="main clearfix">
 
           <div id="content" class="column clear-fix">
+<?php 
+$column_style = drupal_is_front_page()? 'home-sidebar' : 'first-sidebar';
+?>
           <?php if ($page['sidebar_first']): ?>
-            <div id="first-sidebar" class="column sidebar first-sidebar">
+					<div id="first-sidebar" class="column sidebar <?php echo $column_style; ?>">
               <div class="section">
                 <div class="gutter">
                   <?php print render($page['sidebar_first']); ?>
