@@ -122,6 +122,7 @@ a:hover {
   overflow: hidden;
 }
 header {
+	display:block;
   background:#637B94;
   height: 145px;
   width: 100%;
@@ -580,8 +581,9 @@ footer a:hover {
 .sidebar .block-menu-block a{color:#A52C2C;}
 .sidebar .block-menu-block a:hover, .sidebar .block-menu-block li.active a{color:#000;}
 .sidebar .block-menu-block a:hover, .sidebar .block-menu-block a{text-decoration:none;}
+.sidebar .block-menu-block ul li{list-style-image:none;}
 /** footer **/
-footer{background:url('../images/footer_grad.gif') 0 0 repeat-x; padding:40px 0 80px 0;}
+footer{background:url('../images/footer_grad.gif') 0 0 repeat-x; padding:40px 0 80px 0; display:block;}
 div.footer_logos{margin-left:22px;}
 div.footer_logos, div.footer_logos img{float:left;}
 div.footer_logos img{margin-right:40px;}
