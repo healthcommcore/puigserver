@@ -548,6 +548,10 @@ footer a:hover {
 .preface-1, .preface-2, .preface-3{border:#3D5454 2px solid; margin:0 8px; background:#fff;}
 .preface-1 .content, .preface-2 .content, .preface-3 .content{padding:5px 15px 15px;}
 
+/** Institition logos **/
+.inst_logos{float:right;clear:right; margin:16px 8px 0 0;}
+.inst_logos p{float:left; margin-right:20px;}
+
 .first-sidebar{background:#DFD9C3;}
 .first-sidebar .gutter{padding:0;}
 /** Hero images **/
