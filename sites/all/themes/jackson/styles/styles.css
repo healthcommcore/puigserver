@@ -604,6 +604,7 @@ div.footer_links .legal a{ text-decoration:underline; margin-left:3px; font-fami
 .members{margin-top:20px;}
 .members td{vertical-align:top; padding-bottom:30px;}
 .members img{padding-right:20px;}
+.submitted{margin-top:25px; font-size:.8em; color:#ccc;}
 
 @font-face {
     font-family: 'RobotoRegular';
