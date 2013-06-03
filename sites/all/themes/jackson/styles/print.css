@@ -1,4 +1,6 @@
-body{font-family:Arial, Helvitica, sans-serif;}
+body, em, strong{font-family:Arial, Helvitica, sans-serif;}
+strong{font-weight:bold;}
+em{font-style:italic;}
 .sidebar-first .page-content{width:90%;}
 .page-content{padding:0;}
 header, nav, .first-sidebar, .footer_links{display:none;}
@@ -6,3 +8,6 @@ h1, h2, h3, h4{font-family:Times New Roman, serif;}
 article{font-size:16pt; line-height:19pt;}
 h1{font-size:38pt;}
 h2{font-size:28pt;}
+#home_copy{float:left; width:75%; margin-left:24%;}
+.home-sidebar .news{position:absolute; width:23%;}
+#home_copy h1{font-size:32pt;}
