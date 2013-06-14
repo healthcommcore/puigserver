@@ -100,9 +100,11 @@
     ?>
   </div>
   <?php if ($display_submitted): ?>
+	<!--
     <div class="submitted">
-      <?php print $submitted; ?>
+      <?php //print $submitted; ?>
     </div>
+	-->
   <?php endif; ?>
 
   <?php print render($content['links']); ?>
